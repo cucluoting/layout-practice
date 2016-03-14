@@ -1,6 +1,7 @@
 	html,body{margin: 0;padding: 0;}
 	*{box-sizing: border-box;}
 
+	.container{padding: 0 10px;}
 	.row::after, .clearfix::after{content: ".";display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
 
 	.visible-sm-block{display: none!important;}
