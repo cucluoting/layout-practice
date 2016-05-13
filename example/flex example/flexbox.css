@@ -1,0 +1,16 @@
+body{margin: 0;padding: 0;}
+
+.parent{display: flex;align-items: center;justify-content: space-between;}
+.child{width: 150px;padding: 20px;}
+
+#child1{height: 120px;}
+#child2{height: 100px;}
+#child3{height: 40px;}
+#child4{height: 200px;}
+#child1, #child2, #child3{border: 1px solid #f00;}
+#child4{border: 1px solid #0f0;}
+
+@media all and (max-width: 640px) {
+  #child4{order: -1;}
+  .parent{align-items: flex-start;justify-content: space-between;flex-wrap: wrap;}
+}
