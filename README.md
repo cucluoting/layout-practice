@@ -5,3 +5,8 @@
 
 grid example
 ![](https://raw.githubusercontent.com/cucluoting/layout-practice/master/img/grid%20example.png)
+
+二、[Flexbox 布局](http://ife.baidu.com/task/detail?taskId=10)
+
+flex example
+![](https://raw.githubusercontent.com/cucluoting/layout-practice/master/img/flex%20example.png)
